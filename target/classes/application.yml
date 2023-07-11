@@ -3,7 +3,7 @@ spring:
       # url: jdbc:postgresql://localhost:5432/aplicaprinos?serverTimezone=UTC
       # username: postgres
       # password: postgres
-      url: jdbc:postgresql://ep-curly-dew-762437.us-east-2.aws.neon.tech/neondb?user=3runoWilliam&password=${PGPASSWORD}
+      url: jdbc:postgresql://ep-curly-dew-762437.us-east-2.aws.neon.tech/neondb?user=3runoWilliam&password=b14lnCIcKeSy
       driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
