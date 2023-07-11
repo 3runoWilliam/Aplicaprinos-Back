@@ -1,9 +1,9 @@
 spring:
   datasource:
-      url: jdbc:postgresql://localhost:5432/aplicaprinos?serverTimezone=UTC
-      username: postgres
-      password: postgres
-      # url: jdbc:postgresql://ep-weathered-wave-512169.us-east-2.aws.neon.tech/neondb?user=tobiasPaes&password=${PGPASSWORD}
+      # url: jdbc:postgresql://localhost:5432/aplicaprinos?serverTimezone=UTC
+      # username: postgres
+      # password: postgres
+      url: jdbc:postgresql://ep-weathered-wave-512169.us-east-2.aws.neon.tech/neondb?user=bruno&password=${PGPASSWORD}
       driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
